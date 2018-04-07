@@ -16,6 +16,24 @@ public class ListNode<T> {
         this.value = value;
     }
 
+    // 将链表遍历用以测试结果
+    public static void traverse(ListNode head) {
+        if (head == null) {
+            return;
+        }
+        ListNode traverse = head;
+        boolean isBeginning = true;
+        while (traverse != null) {
+            if (isBeginning) {
+                isBeginning = false;
+                System.out.print(traverse.getValue());
+            } else {
+                System.out.print("," + traverse.getValue());
+            }
+            traverse = traverse.getNext();
+        }
+    }
+
     public T getValue() {
         return value;
     }

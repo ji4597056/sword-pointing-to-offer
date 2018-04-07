@@ -1,7 +1,9 @@
 package com.github.ji4597056.chapter_01;
 
 /**
- * 静态内部类
+ * 1.实现单例模式
+ *
+ * 3)静态内部类
  *
  * @author Jeffrey
  * @since 2018/04/05 15:49

@@ -4,12 +4,16 @@ import com.github.ji4597056.common.BinaryTreeNode;
 import org.junit.Test;
 
 /**
+ * 5.重建二叉树
+ *
+ * 输入二叉树的前序遍历和中序遍历的结果,重建出该二叉树.假设前序遍历和中序遍历结果中都不包含重复的数字.
+ *
  * @author Jeffrey
- * @since 2018/04/05 18:57
+ * @since 2018/04/05 15:30
  */
 public class RebuildBinaryTree {
 
-    public static BinaryTreeNode construct(int[] preorder, int[] inorder) {
+    public BinaryTreeNode construct(int[] preorder, int[] inorder) {
         if (preorder == null || inorder == null) {
             return null;
         }
@@ -17,7 +21,7 @@ public class RebuildBinaryTree {
             inorder.length - 1);
     }
 
-    public static BinaryTreeNode constructBinaryTree(int[] pre, int[] in, int preStart,
+    public BinaryTreeNode constructBinaryTree(int[] pre, int[] in, int preStart,
         int preEnd, int inStart, int inEnd) {
         BinaryTreeNode tree = new BinaryTreeNode(pre[preStart]);
         if (preStart == preEnd && inStart == inEnd) {

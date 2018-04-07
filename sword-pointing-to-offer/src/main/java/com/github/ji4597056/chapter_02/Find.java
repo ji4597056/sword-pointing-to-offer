@@ -4,16 +4,20 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * 2.二维数组的查找
+ *
+ * 一个二维数组,每一行从左到右递增,每一列从上到下递增.输入一个二维数组和一个整数,判断数组中是否含有整数.
+ *
  * @author Jeffrey
  * @since 2018/04/05 16:19
  */
 public class Find {
 
-    public static boolean find(int[][] array, int number) {
+    public boolean find(int[][] array, int number) {
         return find(array, array.length, 0, number, array[0].length);
     }
 
-    private static boolean find(int[][] array, int i, int j, int num, int high) {
+    private boolean find(int[][] array, int i, int j, int num, int high) {
         if (i < 0 || j >= high || array[0][j] > num) {
             return false;
         }

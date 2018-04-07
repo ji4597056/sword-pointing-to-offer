@@ -1,7 +1,9 @@
 package com.github.ji4597056.chapter_01;
 
 /**
- * 饿汉模式
+ * 1.实现单例模式
+ *
+ * 1)饿汉模式
  *
  * @author Jeffrey
  * @since 2018/04/05 15:35

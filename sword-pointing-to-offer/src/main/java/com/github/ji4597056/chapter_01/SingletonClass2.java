@@ -1,7 +1,9 @@
 package com.github.ji4597056.chapter_01;
 
 /**
- * 双重校验锁
+ * 1.实现单例模式
+ *
+ * 2)双重校验锁
  *
  * @author Jeffrey
  * @since 2018/04/05 15:38

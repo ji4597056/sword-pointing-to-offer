@@ -4,12 +4,16 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * 10.数值的整数次方
+ *
+ * 实现函数`double Power（double base，int exponent）`,求base的exponent次方.不得使用库函数,同时不需要考虑大数问题.
+ *
  * @author Jeffrey
- * @since 2018/04/06 16:04
+ * @since 2018/04/05 15:30
  */
 public class GetPower {
 
-    public static double power(double base, int exponent) throws Exception {
+    public double power(double base, int exponent) throws Exception {
         if (equal(base, 0.0) && exponent < 0) {
             throw new Exception("0的负数次幂没有意义!");
         }
@@ -20,7 +24,7 @@ public class GetPower {
         }
     }
 
-    private static double powerWithExpoment(double base, int exponent) {
+    private double powerWithExpoment(double base, int exponent) {
         if (exponent == 0) {
             return 1;
         }
@@ -39,7 +43,7 @@ public class GetPower {
         return result;
     }
 
-    private static boolean equal(double num1, double num2) {
+    private boolean equal(double num1, double num2) {
         return (num1 - num2 > -0.0000001) && num1 - num2 < 0.0000001;
     }
 

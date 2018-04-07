@@ -18,7 +18,7 @@ public class BinaryTreeNode {
         this.value = value;
     }
 
-    //将二叉树先序遍历，用于测试结果
+    // 将二叉树先序遍历，用于测试结果
     public static void preTraverseBinTree(BinaryTreeNode node) {
         if (node == null) {
             return;
@@ -32,7 +32,7 @@ public class BinaryTreeNode {
         }
     }
 
-    //将二叉树中序遍历，用于测试结果
+    // 将二叉树中序遍历，用于测试结果
     public static void inTraverseBinTree(BinaryTreeNode node) {
         if (node == null) {
             return;
@@ -46,7 +46,7 @@ public class BinaryTreeNode {
         }
     }
 
-    //将二叉树后序遍历，用于测试结果
+    // 将二叉树后序遍历，用于测试结果
     public static void postTraverseBinTree(BinaryTreeNode node) {
         if (node == null) {
             return;

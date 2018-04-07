@@ -2,16 +2,16 @@
 
 ## chapter_01:实现单例模式
 
-- 懒汉模式
 - 饿汉模式
 - 双重校验锁
 - 静态内部类
+- 懒汉模式
 
 ## chapter_02:二维数组的查找
 
 **描述:** 一个二维数组,每一行从左到右递增,每一列从上到下递增.输入一个二维数组和一个整数,判断数组中是否含有整数.
 ```java
-    public static boolean find(int[][] array, int number) {
+    public boolean find(int[][] array, int number) {
         //TODO
     }
 ```
@@ -29,7 +29,7 @@
 
 **描述:** 输入一个链表的头结点,从尾到头反过来打印出每个结点的值.
 ```java
-    public static <T> void printListReverse(ListNode<T> node) {
+    public <T> void printListReverse(ListNode<T> node) {
         //TODO
     }
 ```
@@ -38,7 +38,7 @@
 
 **描述:** 输入二叉树的前序遍历和中序遍历的结果,重建出该二叉树.假设前序遍历和中序遍历结果中都不包含重复的数字.
 ```java
-    public static BinaryTreeNode construct(int[] preorder, int[] inorder) {
+    public BinaryTreeNode construct(int[] preorder, int[] inorder) {
         //TODO
     }
 ```
@@ -75,7 +75,7 @@
 
 **描述:** 写一个函数,输入n,求斐波那契数列的第n项.
 ```java
-    public static long fibonacci(int n) {
+    public long fibonacci(int n) {
         //TODO
     }
 ```
@@ -84,7 +84,7 @@
 
 **描述:** 请实现一个函数,输入一个整数,输出该数二进制表示中1的个数.例如把9表示成二进制是1001;有2位是1,因此如果输入9,函数输出2.
 ```java
-    public static int numberOfOne1(int n) {
+    public int numberOfOne1(int n) {
         //TODO
     }
 ```
@@ -93,7 +93,52 @@
 
 **描述:** 实现函数`double Power（double base，int exponent）`,求base的exponent次方.不得使用库函数,同时不需要考虑大数问题.
 ```java
-    public static double power(double base, int exponent) throws Exception {
+    public double power(double base, int exponent) throws Exception {
+        //TODO
+    }
+```
+
+## chapter_11:打印1到最大的n位数
+
+**描述:** 输入数字n,按顺序打印出从1到最大的n位进制数.比如输入3,则打印出1、2、3一直到999.
+```java
+    public void printToMaxOfNDigits(int n) {
+        //TODO
+    }
+```
+
+## chapter_12:在O(1)时间删除链表结点
+
+**描述:** 给定单向链表的头指针和一个结点指针,定义一个函数在O(1)时间删除该结点.
+```java
+    public <T> void deleteNode(ListNode<T> head, ListNode<T> deListNode) {
+        //TODO
+    }
+```
+
+## chapter_13:调整数组顺序使奇数位于偶数前面
+
+**描述:** 输入一个整数数组,实现一个函数来调整该函数数组中数字的顺序,使得所有奇数位于数组的前半部分,所有的偶数位于数组的后半部分.
+```java
+    public void reorderOddEven(int[] array) {
+        //TODO
+    }
+```
+
+## chapter_14:链表中倒数第k个结点
+
+**描述:** 输入一个链表,输出该链表中倒数第k个结点.为了符合大多数人的习惯,本题从1开始计数,即链表的尾结点是倒数第一个结点.例如一个有6个结点的链表,从头结点依次是1,2,3,4,5,6.倒数第三个结点就是值为4的结点.
+```java
+    public <T> ListNode findKToTail(ListNode<T> head, int k) throws Exception {
+        //TODO
+    }
+```
+
+## chapter_15:反转链表
+
+**描述:** 定义一个函数,输入一个链表的头结点,反转该链表并输出反转后链表的头结点.
+```java
+    public <T> ListNode<T> reverseList(ListNode<T> head) {
         //TODO
     }
 ```

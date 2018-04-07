@@ -4,13 +4,17 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * 9.二进制中1的个数
+ *
+ * 请实现一个函数,输入一个整数,输出该数二进制表示中1的个数.例如把9表示成二进制是1001;有2位是1,因此如果输入9,函数输出2.
+ *
  * @author Jeffrey
- * @since 2018/04/06 15:33
+ * @since 2018/04/05 15:30
  */
 public class NumberOfOne {
 
     // 常规思路
-    public static int numberOfOne1(int n) {
+    public int numberOfOne1(int n) {
         int count = 0;
         int flag = 1;
         while (flag != 0) {
@@ -23,7 +27,7 @@ public class NumberOfOne {
     }
 
     // 加分思路
-    public static int numberOfOne2(int n) {
+    public int numberOfOne2(int n) {
         int count = 0;
         while (n != 0) {
             count++;

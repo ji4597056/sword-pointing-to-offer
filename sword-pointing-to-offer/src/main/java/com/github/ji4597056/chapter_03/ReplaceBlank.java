@@ -4,7 +4,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * 原题是考数组尾遍历复制的思想
+ * 3.替换空格
+ *
+ * 请实现一个函数,把字符串中的每个空格替换成"%20".
+ *
+ * 注:原题是考数组尾遍历复制的思想
  *
  * @author Jeffrey
  * @since 2018/04/05 17:37

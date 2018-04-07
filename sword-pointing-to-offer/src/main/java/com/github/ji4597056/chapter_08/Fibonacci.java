@@ -4,6 +4,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * 8.斐波拉契数列
+ *
+ * 写一个函数,输入n,求斐波那契数列的第n项.
+ *
  * 扩展问题:一只青蛙一次可以跳上一级台阶或两级台阶,求青蛙跳上n级台阶共有多少种跳法?
  * n = 1 , f(n) = 1
  * n = 2 , f(n) = 2
@@ -15,7 +19,7 @@ import org.junit.Test;
  */
 public class Fibonacci {
 
-    public static long fibonacci(int n) {
+    public long fibonacci(int n) {
         if (n <= 0) {
             return 0L;
         }
@@ -33,7 +37,7 @@ public class Fibonacci {
     }
 
     // 递归实现(涉及到太多重复计算,性能较差)
-    public static long fibonacci1(int n) {
+    public long fibonacci1(int n) {
         if (n <= 0) {
             return 0L;
         }
