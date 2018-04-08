@@ -142,3 +142,59 @@
         //TODO
     }
 ```
+
+## chapter_16:合并两个排序的链表
+
+**描述:** 输入两个递增排序的链表,合并这两个链表并使新链表中的结点仍然是按照递增排序的.
+```java
+    public ListNode<Integer> mergeList(ListNode<Integer> head1, ListNode<Integer> head2) {
+        //TODO
+    }
+```
+
+## chapter_17:树的子结构
+
+**描述:** 输入两颗二叉树A和B,判断B是不是A的子结构.
+```java
+    public boolean hasSubTree(BinaryTreeNode root1, BinaryTreeNode root2) {
+        //TODO
+    }
+```
+
+## chapter_18:二叉树的镜像
+
+**描述:** 请完成一个函数,输入一个二叉树,该函数输出它的镜像.
+```java
+    public BinaryTreeNode mirrorBinaryTree(BinaryTreeNode root) {
+        //TODO
+    }
+```
+
+## chapter_19:顺时针打印矩阵
+
+**描述:** 输入一个矩阵,按照从外向里以顺时针的顺序依次打印出每一个数字.
+```java
+    public void printMatixClockwisely(int[][] array) {
+        //TODO
+    }
+```
+
+## chapter_20:包含min函数的栈
+
+**描述:** 定义栈的数据结构,请在该类型中实现一个能够得到栈的最小元素的min函数.在该栈中,调用min、push及pop德尔时间复杂度都是O(1).
+```java
+    public class StackWithMin {
+
+        public void push(Integer data) {
+            //TODO
+        }
+
+        public Integer pop() {
+            //TODO
+        }
+
+        public Integer min() {
+            //TODO
+        }
+    }
+```

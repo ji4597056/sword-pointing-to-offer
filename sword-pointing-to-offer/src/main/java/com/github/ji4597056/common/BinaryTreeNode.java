@@ -1,5 +1,8 @@
 package com.github.ji4597056.common;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 /**
  * 二叉树
  *
@@ -16,6 +19,27 @@ public class BinaryTreeNode {
 
     public BinaryTreeNode(int value) {
         this.value = value;
+    }
+
+    // 将二叉树层序遍历,用于测试结果
+    public static void levelTraverseBinTree(BinaryTreeNode node) {
+        if (node == null) {
+            return;
+        }
+        Queue<BinaryTreeNode> queue = new ArrayDeque<>();
+        queue.add(node);
+        BinaryTreeNode cur;
+        while (!queue.isEmpty()) {
+            cur = queue.peek();
+            System.out.print(cur.value + " ");
+            if (cur.left != null) {
+                queue.add(cur.left);
+            }
+            if (cur.right != null) {
+                queue.add(cur.right);
+            }
+            queue.poll();
+        }
     }
 
     // 将二叉树先序遍历，用于测试结果
