@@ -198,3 +198,48 @@
         }
     }
 ```
+
+## chapter_21:栈的压入、弹出序列
+
+**描述:** 输入两个整数序列,第一个序列表示栈的压入顺序,请判断第二个序列是否为该栈的弹出序列.假设压入栈的所有数字均不相等.例如压栈序列为1、2、3、4、5.序列4、5、3、2、1是压栈序列对应的一个弹出序列,但4、3、5、1、2却不是.
+```java
+    public boolean isPopOrder(int[] line1, int[] line2) {
+        //TODO
+    }
+```
+
+## chapter_22:从上往下打印二叉树
+
+**描述:** 从上往下打印二叉树的每个结点,同一层的结点按照从左到右的顺序打印.
+```java
+    public void printFromTopToBottom(BinaryTreeNode root) {
+        //TODO
+    }
+```
+
+## chapter_23:二叉搜索树的后序遍历序列
+
+**描述:** 输入一个整数数组,判断该数组是不是某二叉搜索树的后序遍历的结果.是则返回true,否则返回false.
+```java
+    public boolean verfiySequenceOfBST(int[] sequence) {
+        //TODO
+    }
+```
+
+## chapter_24:二叉树中和为某一值的路径
+
+**描述:** 输入一颗二叉树和一个整数,打印出二叉树中结点值的和为输入整数的所有路径.从树的根节点开始往下一直到叶结点所经过的结点形成一条路径.
+```java
+    public void findPath(BinaryTreeNode root, int sum) {
+        //TODO
+    }
+```
+
+## chapter_25:复杂链表的复制
+
+**描述:** 实现函数复制一个复杂链表.在复杂链表中,每个结点除了有一个next指针指向下一个结点外,还有一个指向链表中任意结点或null.
+```java
+    public ComplexListNode clone(ComplexListNode head) {
+        //TODO
+    }
+```
