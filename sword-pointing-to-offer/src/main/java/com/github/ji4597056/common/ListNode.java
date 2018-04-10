@@ -54,7 +54,6 @@ public class ListNode<T> {
     public String toString() {
         final StringBuilder sb = new StringBuilder("ListNode{");
         sb.append("value=").append(value);
-        sb.append(", next=").append(next);
         sb.append('}');
         return sb.toString();
     }
