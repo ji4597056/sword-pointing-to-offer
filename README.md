@@ -271,7 +271,7 @@
     }
 ```
 
-## chapter_29:最小的k个数.
+## chapter_29:最小的k个数
 
 **描述:** 输入n个整数,找出其中最小的k个数.例如输入4,5,1,6,2,7,3,8这8个数字,则最少的4个数字是1,2,3,4.
 ```java
@@ -285,6 +285,110 @@
 **描述:** 输入一个整型数组,数组里有正数也有负数.数组中一个或连续的多个整数组成一个子数组.求所有子数组的和的最大值.要求时间复杂度为O(n).例如输入的数组为{1,-2,3,10,-4,7,2,-5},和最大的子数组为{3,10,-4,7,2}.
 ```java
     public int findGreatestSubArray(int[] array) {
+        //TODO
+    }
+```
+
+## chapter_31:从1到n整数中1出现的次数
+
+**描述:** 输入一个整数n,求从1到n这n个整数的十进制表示中1出现的次数.例如输入12,这些整数中包含1的数字有1,10,11,12,1一共出现了5次.
+```java
+    public long countOne(long n) {
+        //TODO
+    }
+```
+
+## chapter_32:把数组排成最小的数
+
+**描述:** 输入一个正整数数组,把数组里所有数字拼接起来排成一个数,打印能拼接出的所有数字的最小的一个.例如输入{3,32,321},则打印最小的数字是321323.
+```java
+    public static void printMin(int[] array) {
+        //TODO
+    }
+```
+
+## chapter_33:丑数
+
+**描述:** 我们把只包含因子2,3,和5的称为丑数.求按从小到大的顺序的第1500个丑数.例如6、8都是丑数,但14不是,因为它包含因子7.习惯上我们把1当做第一个丑数.
+```java
+    public static int getUglyNumber(int n) {
+        //TODO
+    }
+```
+
+## chapter_34:第一个只出现一次的字符
+
+**描述:** 在字符串中找出第一个只出现一次的字符.如果输入"abaccdeff",则输出'b'.
+```java
+    public static Character firstNotRepeatChar(String str) {
+        //TODO
+    }
+```
+
+## chapter_35:数组中的逆序对
+
+**描述:** 在数组中的两个数字如果前一个数字大于后一个数字,则这两个数字组成一个逆序对.输入一个数组,求出这个数组的逆序对的总数.例如在数组{7,5,6,4}中,一共存在5个逆序对,分别是(7,6)、(7,5)、(7,4)、(6,4)、(5,4).
+```java
+    public int inversePairs(int[] array) {
+        //TODO
+    }
+```
+
+## chapter_36:两个链表的第一个公共结点
+
+**描述:** 输入两个链表,找出它们的第一个公共结点.
+```java
+    public ListNode findFirstCommonNode(ListNode head1, ListNode head2) {
+        //TODO
+    }
+```
+
+## chapter_37:数字在排序数组中出现的次数
+
+**描述:** 统计一个数字在排序数组中出现的次数.例如输入排序数组{1,2,3,3,3,3,3,4,5}和数字3,由于3在这个数组中出现了4次,因此输出4.
+```java
+    public int getNumberOfK(int[] array, int k) {
+        //TODO
+    }
+```
+
+## chapter_38:二叉树的深度
+
+**描述:** 题目一:输入一棵二叉树的根结点,求该树的深度.从根结点到叶结点依次经过的结点(含根、叶结点)形成树的一条路径,最长路径的长度为树的深度.
+```java
+    public int treeDepth(BinaryTreeNode root) {
+        //TODO
+    }
+```
+
+**描述:** 题目二:输入一棵二叉树的根结点,判断该树是不是平衡二叉树.如果某二叉树中任意结点的左右子树的深度相差不超过1,那么他就是一棵平衡二叉树.
+```java
+    public boolean isBalanced(BinaryTreeNode root) {
+        //TODO
+    }
+```
+
+## chapter_39:数组中只出现一次的数字
+
+**描述:** 一个整型数组里除了两个数字之外,其他的数字都出现了两次.请写程序找出这两个只出现一次的数字.要求时间复杂度是O(n),空间复杂度为O(1).
+```java
+    public void findNumsAppearOnce(int[] array) {
+        //TODO
+    }
+```
+
+## chapter_40:和为s的两个数字VS和为s的连续正数序列
+
+**描述:** 题目一:输一个递增排序的数组和一个数字s,在数组中查找两个数使得它们的和正好是s.如果有多对数字的和等于s,输出任意一对即可.例如:输入数组{1,2,4,7,11,15}和数字为15.输出4和11.
+```java
+    public boolean findNumberWithSum(int[] data, int sum) {
+        //TODO
+    }
+```
+
+**描述:** 题目二:输入一个正数s,打印出所有和为s的连续正数序列(至少含两个数).例如输入15,由于1+2+3+4+5=4+5+6=7+8=15,所以结果打印出3个连续序列1-5、4-6和7-8.
+```java
+    public void findContinuesSequence(int sum) {
         //TODO
     }
 ```

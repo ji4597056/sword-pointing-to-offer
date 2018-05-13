@@ -21,7 +21,7 @@ public class RebuildBinaryTree {
             inorder.length - 1);
     }
 
-    public BinaryTreeNode constructBinaryTree(int[] pre, int[] in, int preStart,
+    private BinaryTreeNode constructBinaryTree(int[] pre, int[] in, int preStart,
         int preEnd, int inStart, int inEnd) {
         BinaryTreeNode tree = new BinaryTreeNode(pre[preStart]);
         if (preStart == preEnd && inStart == inEnd) {
