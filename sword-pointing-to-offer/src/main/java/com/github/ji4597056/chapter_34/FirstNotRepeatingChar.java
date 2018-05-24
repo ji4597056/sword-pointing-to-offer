@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * 34.chapter_34:第一个只出现一次的字符
+ * 34.第一个只出现一次的字符
  *
  * 在字符串中找出第一个只出现一次的字符.如果输入"abaccdeff",则输出'b'.
  *
