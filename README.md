@@ -413,26 +413,34 @@
 
 **描述:** 把n个骰子扔在地上,所有骰子朝上一面的点数之和为s.输入n,打印出s的所有可能的值出现的概率.
 ```java
-
+    public void printProbability(int number) {
+        //TODO
+    }
 ```
 
 ## chapter_43:扑克牌的顺子
 
 **描述:** 从扑克牌中随机抽5张牌,判断是不是顺子,即这5张牌是不是连续的.2-10为数字本身,A为1,J为11,Q为12,K为13,而大小王可以看成任意的数字.
 ```java
-
+    public boolean isContinuous(int[] numbers) {
+        //TODO
+    }
 ```
 
 ## chapter_44:圆圈中最后剩下的数字
 
 **描述:** 0,1,...,n-1这n个数排成一个圆圈,从数字0开始每次从这个圆圈里删除第m个数字.求出这个圆圈里剩下的最后一个数字.
 ```java
-
+    public int lastRemaining(int n, int m) {
+        //TODO
+    }
 ```
 
 ## chapter_45:求1+2+...+n
 
 **描述:** 求1+2+...+n,要求不能用除法、for、while、if、else、switch、case等关键字及条件判断语句(A?B:C).
 ```java
-
+    public int sumSolution(int n) {
+        //TODO
+    }
 ```
